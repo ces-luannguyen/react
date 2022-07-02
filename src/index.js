@@ -4,11 +4,13 @@ import ReactDOM from "react-dom/client";
 const el = document.querySelector('#root');
 const root = ReactDOM.createRoot(el);
 
+const a = 6;
+
 class App extends React.Component {
     
 
     num1 = 0;
-    num2 = 1;
+    num2 = a;
     str1 = '';
     str2 = '';
 
